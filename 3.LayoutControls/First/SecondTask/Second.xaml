@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="First.SecondTask.Second"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="622.04">    
+    <WrapPanel FlowDirection="LeftToRight">
+        <Border BorderThickness="5" BorderBrush="AliceBlue" Width="250" Margin="5">
+            <WrapPanel>
+                <Border BorderBrush="Aquamarine" BorderThickness="3">
+                    <WrapPanel>
+                        <Button Click="Button_Click">Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                        <Button>Button</Button>
+                    </WrapPanel>
+                </Border>
+            </WrapPanel>
+        </Border>
+        <Border BorderBrush="Aquamarine" BorderThickness="3" Width="250" >
+            <Canvas>
+                <Button Canvas.Left="10" Canvas.Top="20">I am a Button</Button>
+                <Button Canvas.Left="15" Canvas.Top="35">I am a Button</Button>
+            </Canvas>
+        </Border>
+        <Border BorderBrush="Aquamarine" BorderThickness="3" Width="250" Height="100">
+            <Canvas>
+                <Button Canvas.Left="10" Canvas.Top="20" Width="80">I am a Button</Button>
+            </Canvas>
+        </Border>
+    </WrapPanel>
+</UserControl>

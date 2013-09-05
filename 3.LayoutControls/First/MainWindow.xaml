@@ -1,0 +1,19 @@
+﻿<Window x:Class="First.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="622.04"
+        xmlns:my="clr-namespace:First"
+        xmlns:m1="clr-namespace:First.SecondTask">
+        
+    <TabControl>
+        <TabItem Header="first" >
+            <my:FirstGrid x:Name="firstGrid"></my:FirstGrid>              
+        </TabItem>
+        <TabItem Header="second">
+            <my:AnotherPage x:Name="anotherPage1"></my:AnotherPage>
+        </TabItem>
+        <TabItem Header="third">
+            <m1:Second x:Name="SecondTaskPage"></m1:Second>
+        </TabItem>
+    </TabControl>
+</Window>
