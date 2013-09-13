@@ -1,30 +1,44 @@
 ﻿<Window x:Class="Countries.App.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525"
+        Title="MainWindow" Height="450" Width="600"
         xmlns:vms="clr-namespace:Countries.Data;assembly=Countries.Data">
-    
-    <StackPanel Orientation="Horizontal">                
+        
+    <DockPanel LastChildFill="True" >
+        <ScrollViewer DockPanel.Dock="Left">
+            <StackPanel>
+                <Menu Background="DeepSkyBlue" Foreground="AntiqueWhite">
+                    <MenuItem Background="DeepSkyBlue" Header="File">
+                        <MenuItem Background="DeepSkyBlue" Header="Save Changes" Click="Towns_SaveChangesButton"></MenuItem>
+                    </MenuItem>
+                    <TextBlock>&lt;-(click to save)</TextBlock>
+                </Menu>
+                <DataGrid Name="TownsGrid" ItemsSource="{Binding Towns}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Name}" Header="Town name"/>
+                        <DataGridTextColumn Binding="{Binding Country.Name}" Header="Country"/>
+                        <DataGridCheckBoxColumn Binding="{Binding Nonexistent}" Header="Deleted"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </ScrollViewer>
         
         <ScrollViewer>
-        <StackPanel>            
-            <!--<Button Click="Countries_SaveChangesButton">Save Changes</Button>-->
-            <StackPanel>
-                <DataGrid Name="CountriesGrid" ItemsSource="{Binding Countries}" AutoGenerateColumns="False" >
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Binding="{Binding Name}" Header="Country name" />                        
-                        <DataGridTextColumn Binding="{Binding Population}" Header="Population"/>
-                            <DataGridTemplateColumn>
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <Button Click='Countries_SaveChangesButton'>Save</Button>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                    </DataGrid.Columns>               
-                </DataGrid>
+        <StackPanel>
+                <Menu Background="DeepSkyBlue" Cursor="IBeam" Foreground="AntiqueWhite">
+                    <MenuItem Header="File">
+                        <MenuItem Background="DeepSkyBlue" Header="Save Changes" Click="Countries_SaveChangesButton"></MenuItem>
+                    </MenuItem>
+                </Menu>
+                <StackPanel>
+                <DataGrid Name="CountriesGrid" ItemsSource="{Binding Countries}" AutoGenerateColumns="False" GridLinesVisibility="Horizontal" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Name}" Header="Country name" />
+                            <DataGridTextColumn Binding="{Binding Population}" Header="Population"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
             </StackPanel>
         </StackPanel>
         </ScrollViewer>
-    </StackPanel>
+    </DockPanel>
 </Window>
