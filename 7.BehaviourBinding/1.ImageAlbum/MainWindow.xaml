@@ -1,0 +1,56 @@
+﻿<Window x:Class="ImageAlbum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vms="clr-namespace:ImageAlbum"
+        Title="MainWindow" Height="700" Width="1100">
+    <Window.DataContext>
+        <vms:ImgAlbumViewModel />
+    </Window.DataContext>
+  
+    <StackPanel>
+        <TabControl ItemsSource="{Binding Albums}">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Grid.Row="1"
+                                Width="40" Height="25" 
+                                Command="{Binding Prev}"
+                                CommandParameter="Prev pressed" VerticalAlignment="Center">
+                            Prev
+                        </Button>
+                        
+                        <Grid DataContext="{Binding CurrentImage}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{Binding Title}"/>
+                            
+                            <Image Grid.Row="1" Source="{Binding ImgSource}" Width="1000" Height="600">
+                                <ContextMenuService.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem>
+                                            <TextBlock Text="{Binding ImagePath}" />
+                                        </MenuItem>
+                                    </ContextMenu>
+                                </ContextMenuService.ContextMenu>
+                            </Image>
+                        </Grid>
+                        <Button Grid.Row="1"
+                                Width="40" Height="25" 
+                                Command="{Binding Prev}" 
+                                CommandParameter="Next pressed"
+                                VerticalAlignment="Center">
+                            Next
+                        </Button>
+                    </StackPanel>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+        </TabControl>
+    </StackPanel>
+</Window>

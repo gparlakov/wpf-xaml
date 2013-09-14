@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<albums>
+  <album>
+    <name>First album</name>
+    <images>
+      <image>
+        <title>Sky</title>
+        <imgSource>..\..\images\DSC_0005.JPG</imgSource>
+      </image>
+      <image>
+        <title>Screenshot</title>
+        <imgSource>..\..\images\DSC_0006.JPG</imgSource>
+      </image>
+      <image>
+        <title>Tatami</title>
+        <imgSource>..\..\images\DSC_0009.JPG</imgSource>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>Second album</name>
+    <images>
+      <image>
+        <title>Sky1</title>
+        <imgSource>..\..\images\DSC_0010.JPG</imgSource>
+      </image>
+      <image>
+        <title>Screenshot2</title>
+        <imgSource>..\..\images\DSC_0012.JPG</imgSource>
+      </image>
+      <image>
+        <title>Tatami3</title>
+        <imgSource>../../images/DSC_0013.JPG</imgSource>
+      </image>
+    </images>
+  </album>
+
+</albums>
