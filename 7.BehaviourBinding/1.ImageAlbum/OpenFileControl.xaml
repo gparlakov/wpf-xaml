@@ -1,0 +1,12 @@
+﻿<UserControl 
+    x:Class="OpenFileControl.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button x:Name="bOpenFileDialog" Content="Open File"
+                 Height="30" Width="60" Margin="10"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Click="bOpenFileDialog_Click" />
+    </Grid>
+</UserControl>

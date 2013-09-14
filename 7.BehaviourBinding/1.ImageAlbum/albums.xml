@@ -15,6 +15,18 @@
         <title>Tatami</title>
         <imgSource>..\..\images\DSC_0009.JPG</imgSource>
       </image>
+      <image>
+        <title>Tatami</title>
+        <imgSource>..\..\images\DSC_0010.JPG</imgSource>
+      </image>
+      <image>
+        <title>Tatami</title>
+        <imgSource>..\..\images\DSC_0012.JPG</imgSource>
+      </image>
+      <image>
+        <title>Tatami</title>
+        <imgSource>..\..\images\DSC_0013.JPG</imgSource>
+      </image>
     </images>
   </album>
   <album>
@@ -22,15 +34,32 @@
     <images>
       <image>
         <title>Sky1</title>
-        <imgSource>..\..\images\DSC_0010.JPG</imgSource>
+        <imgSource>..\..\images\DSC_0014.JPG</imgSource>
       </image>
       <image>
         <title>Screenshot2</title>
-        <imgSource>..\..\images\DSC_0012.JPG</imgSource>
+        <imgSource>..\..\images\DSC_0015.JPG</imgSource>
       </image>
       <image>
         <title>Tatami3</title>
-        <imgSource>../../images/DSC_0013.JPG</imgSource>
+        <imgSource>../../images/DSC_0016.JPG</imgSource>
+      </image>
+    </images>
+  </album>
+  <album>
+    <name>Third album</name>
+    <images>
+      <image>
+        <title>Brunch1</title>
+        <imgSource>..\..\images\DSC_0035.JPG</imgSource>
+      </image>
+      <image>
+        <title>Brunch2</title>
+        <imgSource>..\..\images\DSC_0036.JPG</imgSource>
+      </image>
+      <image>
+        <title>Brunch3</title>
+        <imgSource>..\..\images\image20131509120356.png</imgSource>
       </image>
     </images>
   </album>

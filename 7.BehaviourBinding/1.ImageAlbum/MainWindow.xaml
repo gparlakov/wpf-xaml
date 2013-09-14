@@ -2,12 +2,20 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vms="clr-namespace:ImageAlbum"
+        xmlns:controls="clr-namespace:OpenFileControl"
         Title="MainWindow" Height="700" Width="1100">
     <Window.DataContext>
         <vms:ImgAlbumViewModel />
     </Window.DataContext>
   
     <StackPanel>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="Add New Image">
+                    <controls:Page />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
         <TabControl ItemsSource="{Binding Albums}">
             <TabControl.ItemTemplate>
                 <DataTemplate>
@@ -52,5 +60,6 @@
                 </DataTemplate>
             </TabControl.ContentTemplate>
         </TabControl>
+        
     </StackPanel>
 </Window>
