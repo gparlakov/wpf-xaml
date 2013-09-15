@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<operatingsystems>
+  
+  <os>
+    <id>7</id>
+    <name>iOS</name>
+    <version>6</version>
+    <manufacturer>Apple</manufacturer>
+  </os>
+  
+  <os>
+    <id>6</id>
+    <name>Android</name>
+    <version>Jelly bean</version>
+    <manufacturer>Google Inc.</manufacturer>
+  </os>
+  
+  <os>
+    <id>5</id>
+    <name>WindowsPhone</name>
+    <version>8</version>
+    <manufacturer>Microsoft</manufacturer>
+  </os>
+  
+  <os>
+    <id>4</id>
+    <name>BlackBerry OS</name>
+    <version>10</version>
+    <manufacturer>BlackBerry</manufacturer>
+  </os>
+  
+  <os>
+    <id>3</id>
+    <name>Android</name>
+    <version>Android</version>
+    <manufacturer>Google Inc.</manufacturer>
+  </os>
+  
+  <os>
+    <id>2</id>
+    <name>BlackBerry OS</name>
+    <version>BlackBerry OS</version>
+    <manufacturer>BlackBerry</manufacturer>
+  </os>
+
+  <os>
+    <id>1</id>
+    <name>WindowsPhone</name>
+    <version>WindowsPhone</version>
+    <manufacturer>Microsoft</manufacturer>
+  </os>
+
+  <os>
+    <id>9</id>
+    <name>Nikia OS</name>
+    <version>5.6</version>
+    <manufacturer>Nokia</manufacturer>
+  </os>
+
+</operatingsystems>

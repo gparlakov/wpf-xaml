@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stores>
+  <store>
+    <name>Mobiltel Mladost</name>
+    <phones>
+      <phoneId>1</phoneId>
+      <phoneId>2</phoneId>
+      <phoneId>3</phoneId>
+      <phoneId>8</phoneId>
+      <phoneId>5</phoneId>
+      <phoneId>50b206eb-ba01-42fd-9d36-cf5d909bfce7</phoneId>
+      <phoneId>d28cca1c-5c41-43a0-a30a-5cd368f2977e</phoneId>
+    </phones>
+  </store>
+  <store>
+    <name>Mobiltel Mladost 2</name>
+    <phones>
+      <phoneId>9</phoneId>
+      <phoneId>4</phoneId>
+      <phoneId>3</phoneId>
+      <phoneId>11</phoneId>
+      <phoneId>6</phoneId>
+      <phoneId>0fa2131f-7870-4193-8d98-188d53c60151</phoneId>
+    </phones>
+  </store>
+  <store>
+    <name>Mobiltel Luilin</name>
+    <phones>
+      <phoneId>11</phoneId>
+      <phoneId>7</phoneId>
+      <phoneId>3</phoneId>
+      <phoneId>8</phoneId>
+      <phoneId>4</phoneId>
+      <phoneId>8</phoneId>
+    </phones>
+  </store>
+  <store>
+    <name>Mladost 6</name>
+    <phones>
+      <phoneId>11</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>1</phoneId>
+    </phones>
+  </store>
+  <store>
+    <name>Chiprovtsi</name>
+    <phones>
+      <phoneId>7</phoneId>
+      <phoneId>8f5d38f0-b94b-458a-a800-b2b5f43dd868</phoneId>
+      <phoneId>3</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>f64c8ad7-a400-42f7-ad54-e86ca172b52a</phoneId>
+      <phoneId>2</phoneId>
+      <phoneId>5</phoneId>
+      <phoneId>9</phoneId>
+      <phoneId>9</phoneId>
+      <phoneId>9</phoneId>
+      <phoneId>9</phoneId>
+      <phoneId>9</phoneId>
+    </phones>
+  </store>
+</stores>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phones>
+  <phone>
+    <id>11</id>
+    <vendor>Samsung</vendor>
+    <model>Galaxy S4</model>
+    <year>2013</year>
+    <image>..\..\Images\samsung-s4.jpg</image>
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>10</id>
+    <vendor>HTC</vendor>
+    <model>WindowsPhone 8X</model>
+    <year>2013</year>
+    <image>..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>5</id>
+    </os>
+  </phone>
+  <phone>
+    <id>9</id>
+    <vendor>Apple</vendor>
+    <model>iPhone 5</model>
+    <year>2012</year>
+    <image>..\..\..\Images\apple-iphone-5.jpeg</image>
+    <os>
+      <id>7</id>
+    </os>
+  </phone>
+  <phone>
+    <id>8</id>
+    <vendor>HTC</vendor>
+    <model>One</model>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>7</id>
+    <vendor>Google</vendor>
+    <model>Nexus</model>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>6</id>
+    <vendor>Nokia</vendor>
+    <model>Lumia 920</model>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>5</id>
+    </os>
+  </phone>
+  <phone>
+    <id>5</id>
+    <vendor>BlackBerry</vendor>
+    <model>Q10</model>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>4</id>
+    </os>
+  </phone>
+  <phone>
+    <id>4</id>
+    <vendor>Nokia</vendor>
+    <model>2100</model>
+    <year>2003</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+    <os>
+      <id>9</id>
+    </os>
+  </phone>
+  <phone>
+    <id>3</id>
+    <vendor>Nokia</vendor>
+    <model>3310</model>
+    <year>2001</year>
+    <image />
+    <os>
+      <id>9</id>
+    </os>
+  </phone>
+  <phone>
+    <id>2</id>
+    <vendor>qwe</vendor>
+    <model>qwe</model>
+    <year>1111</year>
+    <image />
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>1</id>
+    <vendor />
+    <model />
+    <year>0</year>
+    <image />
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>50b206eb-ba01-42fd-9d36-cf5d909bfce7</id>
+    <vendor>fg</vendor>
+    <model>dfg</model>
+    <year>4</year>
+    <image />
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>d28cca1c-5c41-43a0-a30a-5cd368f2977e</id>
+    <vendor>asd</vendor>
+    <model>asd</model>
+    <year>0</year>
+    <image />
+    <os>
+      <id>5</id>
+    </os>
+  </phone>
+  <phone>
+    <id>3bf4602f-dbd8-424b-8036-140a06d765ff</id>
+    <vendor>asd</vendor>
+    <model>af</model>
+    <year>0</year>
+    <image />
+    <os>
+      <id>5</id>
+    </os>
+  </phone>
+  <phone>
+    <id>8f5d38f0-b94b-458a-a800-b2b5f43dd868</id>
+    <vendor />
+    <model />
+    <year>0</year>
+    <image />
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>9164771d-d040-4306-bc9c-3b73c0258d64</id>
+    <vendor>Microsoft</vendor>
+    <model>phone 8.1x</model>
+    <year>2013</year>
+    <image />
+    <os>
+      <id>1</id>
+    </os>
+  </phone>
+  <phone>
+    <id>f64c8ad7-a400-42f7-ad54-e86ca172b52a</id>
+    <vendor>Sony Ericsson</vendor>
+    <model>Neo V</model>
+    <year>2011</year>
+    <image />
+    <os>
+      <id>6</id>
+    </os>
+  </phone>
+  <phone>
+    <id>4587048f-6620-4b6a-9776-aaa8478b9207</id>
+    <vendor>Tite hiksa</vendor>
+    <model>asdads</model>
+    <year>1231945</year>
+    <image />
+    <os>
+      <id>7</id>
+    </os>
+  </phone>
+  <phone>
+    <id>0fa2131f-7870-4193-8d98-188d53c60151</id>
+    <vendor>Nokia</vendor>
+    <model>3456</model>
+    <year>1999</year>
+    <image />
+    <os>
+      <id>9</id>
+    </os>
+  </phone>
+</phones>
