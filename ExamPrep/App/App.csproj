@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E82392B-693A-4177-9294-D0209206B870}</ProjectGuid>
+    <ProjectGuid>{FA8AAD1E-B5B9-4D5C-BC1A-2F4B07BBDDC7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TasksManager.WpfClient</RootNamespace>
-    <AssemblyName>TasksManager.WpfClient</AssemblyName>
+    <RootNamespace>Applicate</RootNamespace>
+    <AssemblyName>Applicate</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -41,8 +41,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -61,32 +61,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Behavior\RelayCommand.cs" />
-    <Compile Include="Converter\BoolToVisibilityConverter.cs" />
-    <Compile Include="Data\DataPersister.cs" />
-    <Compile Include="Data\HttpRequester.cs" />
-    <Compile Include="Data\HttpRequesterOld.cs" />
-    <Compile Include="Helpers\LoginSuccessArgs.cs" />
-    <Compile Include="Models\AppointmentCreatedModel.cs" />
-    <Compile Include="Models\AppointmentModel.cs" />
-    <Compile Include="Models\ListCreatedModel.cs" />
-    <Compile Include="Models\LoginResponseModel.cs" />
-    <Compile Include="Models\RegisterUserResponseModel.cs" />
-    <Compile Include="Models\TodolistModel.cs" />
-    <Compile Include="Models\TodoModel.cs" />
-    <Compile Include="Models\UserModel.cs" />
-    <Compile Include="ViewModels\AppointmentsViewModel.cs" />
-    <Compile Include="ViewModels\AppointmentViewModel.cs" />
     <Compile Include="ViewModels\AppViewModel.cs" />
     <Compile Include="ViewModels\IPageViewModel.cs" />
-    <Compile Include="ViewModels\TodoListViewModel.cs" />
     <Compile Include="ViewModels\LoginRegisterFormViewModel.cs" />
+    <Compile Include="Models\LoginResponseModel.cs" />
     <Compile Include="ViewModels\TodoListsViewModel.cs" />
-    <Compile Include="ViewModels\TodoViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
-    <Compile Include="Views\AppointmentsView.xaml.cs">
-      <DependentUpon>AppointmentsView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\LoginRegisterFormView.xaml.cs">
       <DependentUpon>LoginRegisterFormView.xaml</DependentUpon>
     </Compile>
@@ -101,19 +81,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\AppointmentsView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="Behavior\RelayCommand.cs" />
+    <Compile Include="Converter\BoolToVisibilityConverter.cs" />
+    <Compile Include="Data\DataPersister.cs" />
+    <Compile Include="Data\HttpRequester.cs" />
+    <Compile Include="Data\HttpRequesterOld.cs" />
+    <Compile Include="Helpers\LoginSuccessArgs.cs" />
     <Page Include="Views\LoginRegisterFormView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\TodolistsView.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -130,6 +114,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -141,7 +126,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

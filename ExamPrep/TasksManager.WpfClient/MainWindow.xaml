@@ -1,4 +1,5 @@
-﻿<Window xmlns:Views="clr-namespace:TasksManager.WpfClient.Views"  x:Class="TasksManager.WpfClient.MainWindow"
+﻿<Window xmlns:Views="clr-namespace:TasksManager.WpfClient.Views"  
+        x:Class="TasksManager.WpfClient.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ViewModel="clr-namespace:TasksManager.WpfClient.ViewModels"
